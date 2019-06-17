@@ -1,4 +1,5 @@
 package src.datastructure;
+package datastructure.linkedlist;
 
 public class SinglelyLinkedList {
 
@@ -70,7 +71,7 @@ public class SinglelyLinkedList {
         Node third = new Node(7);
         first.next = second;
         second.next = third;
-       // ll.display(first);
+       ll.display(first);
        /* ll.display(first);
         ll.InsertAtFront(first,27);
         ll.display(ll.InsertAtFront(first,27));
