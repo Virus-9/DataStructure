@@ -1,4 +1,3 @@
-package src.datastructure;
 package datastructure.linkedlist;
 
 public class SinglelyLinkedList {
