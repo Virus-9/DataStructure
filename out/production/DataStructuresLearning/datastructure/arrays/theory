@@ -1,0 +1,11 @@
+Arrays
+
+An object consisting of the numbered list of variables. Each is a primitive type of reference
+
+char[] c; reference to array (any lenght of characters)
+to create a object of array
+c = new Char[4];
+
+multi dimensional array
+two dimensional array: an array of references to arrays
+eg pascal triangle
