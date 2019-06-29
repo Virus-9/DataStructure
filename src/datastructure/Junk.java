@@ -1,17 +1,27 @@
 package datastructure;
 
-interface Showable{
-    void show();
-    interface Message{
-        void msg();
-    }
-}
+public class Junk{
+//
+//    final int alpha;
+//    public Junk(int a){
+//        alpha = a;
+//    }
+//
+//    public
+//    public static void main(String[] args) {
+//        System.out.println(alpha);
+//    }
 
-class TestNestedInterface1 implements Showable.Message{
-    public void msg(){System.out.println("Hello nested interface");}
 
-    public static void main(String args[]){
-        TestNestedInterface1 message=new TestNestedInterface1();//upcasting here
-        message.msg();
-    }
+        public static void main(String args[])
+        {
+            // Method 1: Using String object
+            char[] ch = {'g', 'o', 'o', 'd', ' ', 'm', 'o', 'r', 'n', 'i', 'n', 'g'};
+            String str = new String(ch);
+            System.out.println(str);
+
+            // Method 2: Using valueOf method
+            String str2 = String.valueOf(ch);
+            System.out.println(str2);
+        }
 }
