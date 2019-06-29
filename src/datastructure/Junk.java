@@ -24,5 +24,4 @@ public class Junk{
             String str2 = String.valueOf(ch);
             System.out.println(str2);
         }
-
 }
