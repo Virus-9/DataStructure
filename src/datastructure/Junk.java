@@ -1,27 +1,28 @@
 package datastructure;
 
-import java.util.Scanner;
+public class Junk{
+//
+//    final int alpha;
+//    public Junk(int a){
+//        alpha = a;
+//    }
+//
+//    public
+//    public static void main(String[] args) {
+//        System.out.println(alpha);
+//    }
 
-    /**
-     * Java program to calculate and print Fibonacci number using both recursion
-     * and Iteration.
-     * Fibonacci number is sum of previous two Fibonacci numbers fn= fn-1+ fn-2
-     * first 10 Fibonacci numbers are 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
-     *
-     * @author Javin
-     */
-    public class Junk {
-            static int fib(int n)
-            {
-                if (n <= 1)
-                    return n;
-                return fib(n-1) + fib(n-2);
-            }
 
-            public static void main (String args[])
-            {
-                int n = 3;
+        public static void main(String args[])
+        {
+            // Method 1: Using String object
+            char[] ch = {'g', 'o', 'o', 'd', ' ', 'm', 'o', 'r', 'n', 'i', 'n', 'g'};
+            String str = new String(ch);
+            System.out.println(str);
 
-                System.out.println(fib(n));
-            }
+            // Method 2: Using valueOf method
+            String str2 = String.valueOf(ch);
+            System.out.println(str2);
         }
+
+}
